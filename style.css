@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.conatiner {
+    width: 500px;
+    margin: auto;
+    height: 600px;
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.watch {
+    width: 60%;
+    margin: auto;
+    height: 250px;
+    padding: 0px 45px;
+}
+
+.circle {
+    border: 2px solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 70px 0px;
+    border-width: 10px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes example {
+    from {
+        border-color:rgb(247, 8, 211);
+        
+        
+    }
+
+    to {
+        border-color: rgb(240, 103, 233);
+    }
+}
+
+.minute {
+    font-size: 37px;
+}
+
+.second {
+    font-size: 33px;
+}
+
+.milisec {
+    font-size: 30px;
+}
+
+.btn-start,
+.btn-stop,
+.btn-reset {
+    margin: 0px 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 1em;
+    letter-spacing: 2px;
+}
