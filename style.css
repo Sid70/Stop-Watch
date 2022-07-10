@@ -75,3 +75,9 @@ body {
     border-radius: 1em;
     letter-spacing: 2px;
 }
+
+.btn-start:hover,
+.btn-stop:hover,
+.btn-reset:hover {
+   background-color: purple;
+}
